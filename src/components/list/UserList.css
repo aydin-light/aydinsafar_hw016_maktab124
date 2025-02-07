@@ -1,0 +1,220 @@
+/* roshan */
+.app.light-mode .form-container {
+  background-color: #f7fafc;
+  color: black;
+}
+.app.light-mode .form-group label {
+  color: #4a5568;
+}
+.app.light-mode .form-group input {
+  border: 1px solid #e2e8f0;
+  color: #4a5568;
+}
+.app.light-mode .error {
+  color: #e53e3e;
+}
+.app.light-mode .btn {
+  background-color: #4299e1;
+  color: white;
+}
+/* tire */
+.app.dark-mode .form-container {
+  background-color: #333;
+  color: white;
+}
+.app.dark-mode .form-group label {
+  color: #e2e8f0;
+}
+.app.dark-mode .form-group input {
+  border: 1px solid #4a5568;
+  background-color: #444;
+  color: #e2e8f0;
+}
+.app.dark-mode .form-group input::placeholder {
+  color: #a0aec0;
+}
+.app.dark-mode .error {
+  color: #fc8181;
+}
+.app.dark-mode .btn {
+  background-color: #2b6cb0;
+  color: white;
+}
+.app.dark-mode ::-webkit-scrollbar {
+  width: 12px;
+}
+.app.dark-mode ::-webkit-scrollbar-track {
+  background: #444;
+}
+.app.dark-mode ::-webkit-scrollbar-thumb {
+  background-color: #2b6cb0;
+  border-radius: 6px;
+  border: 3px solid #444;
+}
+/* asli */
+.form-container {
+  min-width: 600px;
+}
+.form-group {
+  margin-bottom: 1rem;
+  min-width: 45%;
+}
+.form-group label {
+  display: block;
+  color: #4a5568;
+}
+.form-group input {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  width: 100%;
+  color: #4a5568;
+}
+.error {
+  color: #e53e3e;
+}
+.btn {
+  background-color: #4299e1;
+  color: white;
+}
+.app.light-mode .list-container {
+  background-color: #ffffff;
+  color: black;
+}
+.app.light-mode .user-item {
+  background-color: #f7fafc;
+  border: black solid 1px;
+  color: black;
+}
+.app.light-mode .userinfo .label {
+  color: #4a5568;
+}
+.app.light-mode .userinfo .value {
+  color: #1a202c;
+}
+.app.light-mode .edit-btn {
+  background-color: #4299e1;
+}
+.app.light-mode .delete-btn {
+  background-color: #e53e3e;
+}
+.app.light-mode .modal-container {
+  background: white;
+  color: black;
+}
+.app.dark-mode .list-container {
+  background-color: #333;
+  color: white;
+}
+.app.dark-mode .user-item {
+  background-color: #444;
+  border: white solid 1px;
+  color: white;
+}
+.app.dark-mode .userinfo .label {
+  color: #e2e8f0;
+}
+.app.dark-mode .userinfo .value {
+  color: #cbd5e0;
+}
+.app.dark-mode .edit-btn {
+  background-color: #2b6cb0;
+}
+.app.dark-mode .delete-btn {
+  background-color: #e53e3e;
+}
+.app.dark-mode .modal-container {
+  background: #444;
+  color: white;
+}
+.app.dark-mode .form-group label {
+  color: #e2e8f0;
+}
+.app.dark-mode .input-field {
+  border: 1px solid #4a5568;
+  color: #e2e8f0;
+}
+.app.dark-mode .cancel-btn {
+  background-color: #4a5568;
+  color: white;
+}
+.list-container {
+  width: 700px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  overflow: scroll;
+}
+.user-item {
+  width: 300px;
+  border: black solid 1px;
+  border-radius: 25px;
+  padding: 15px;
+}
+.userinfo {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 5px;
+  flex-flow: row-reverse;
+}
+.userinfo .label {
+  color: #4a5568;
+}
+.userinfo .value {
+  color: #1a202c;
+}
+.edit-btn {
+  background-color: #4299e1;
+  margin: 10px;
+  height: 30px;
+  width: 60px;
+}
+.delete-btn {
+  background-color: #e53e3e;
+  margin: 10px;
+  height: 30px;
+  width: 60px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+.modal-container {
+  background: white;
+  padding: 24px;
+  width:600px;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+.modal-title {
+  font-size: 20px;
+  margin-bottom: 16px;
+  text-align: end;
+}
+.input-field {
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  width: 100%;
+  padding: 8px;
+  color: #4a5568;
+}
+.cancel-btn {
+  background-color: #718096;
+  margin: 10px;
+  height: 30px;
+  width: 60px;
+}
+.yes-btn{
+background-color: #718096;
+  margin: 10px;
+  height: 30px;
+  width: 60px;
+}

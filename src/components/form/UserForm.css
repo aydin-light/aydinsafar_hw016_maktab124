@@ -1,0 +1,64 @@
+.app.light-mode .form-container {
+  background-color: #f7fafc;
+  color: black;
+}
+.app.light-mode .form-group label {
+  color: #4a5568;
+}
+.app.light-mode .form-group input {
+  border: 1px solid #e2e8f0;
+  color: #4a5568;
+}
+.app.light-mode .error {
+  color: #e53e3e;
+}
+.app.light-mode .btn {
+  background-color: #4299e1;
+  color: white;
+}
+.app.dark-mode .form-container {
+  background-color: #333;
+  color: white;
+}
+.app.dark-mode .form-group label {
+  color: #e2e8f0;
+}
+.app.dark-mode .form-group input {
+  border: 1px solid #4a5568;
+  color: #e2e8f0;
+}
+.app.dark-mode .error {
+  color: #fc8181;
+}
+.app.dark-mode .btn {
+  background-color: #2b6cb0;
+  color: white;
+}
+.form-container {
+  min-width: 600px;
+}
+.form-group {
+  text-align: end;
+}
+.form-group label {
+  display: block;
+  color: #4a5568;
+}
+.form-group input {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  width: 500px;
+  height: 32px;
+  color: #4a5568;
+  text-align: end;
+}
+.error {
+  color: #e53e3e;
+}
+.btn-submit {
+  background-color: #4299e1;
+  color: white;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
